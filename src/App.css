@@ -18,6 +18,9 @@
   font-size: 1em;
   font-weight: bold;
 }
+.highlight {
+  background-color: gold;
+}
 .header-img-header {
   display: flex;
 }
