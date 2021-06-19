@@ -24,7 +24,7 @@ const Bookings = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
   useEffect(() => {
-    fetch("https://cyf-react.glitch.me/error")
+    fetch("https://cyf-react.glitch.me/delayed")
       .then(res => {
         if (res.ok) {
           console.log("res is ok");

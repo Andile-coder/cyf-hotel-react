@@ -10,18 +10,21 @@ const App = () => {
   return (
     <div className="App">
       <Header />
-      <TouristInfoCards
-        href="https://peoplemakeglasgow.com/"
-        src="https://peoplemakeglasgow.com/images/Top_Reasons_To_Visit/Scotland_Street_School_Glasgow.jpg"
-      />
-      <TouristInfoCards
-        href="https://visitmanchester.com/"
-        src="https://www.newcollegegroup.com/app/uploads/2018/07/shutterstock_90268330.jpg"
-      />
-      <TouristInfoCards
-        href="https://visitlondon.com/"
-        src="https://www.planetware.com/photos-large/ENG/london-top-attractions-tower-of-london.jpg"
-      />
+      <div id="touristCards">
+        <TouristInfoCards
+          href="https://peoplemakeglasgow.com/"
+          src="https://peoplemakeglasgow.com/images/Top_Reasons_To_Visit/Scotland_Street_School_Glasgow.jpg"
+        />
+        <TouristInfoCards
+          href="https://visitmanchester.com/"
+          src="https://www.newcollegegroup.com/app/uploads/2018/07/shutterstock_90268330.jpg"
+        />
+        <TouristInfoCards
+          href="https://visitlondon.com/"
+          src="https://www.planetware.com/photos-large/ENG/london-top-attractions-tower-of-london.jpg"
+        />
+      </div>
+
       <Bookings />
       <Restaurant />
       <Footer

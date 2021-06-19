@@ -18,6 +18,10 @@
   font-size: 1em;
   font-weight: bold;
 }
+#touristCards {
+  display: flex;
+  justify-content: space-evenly;
+}
 .highlight {
   background-color: gold;
 }
